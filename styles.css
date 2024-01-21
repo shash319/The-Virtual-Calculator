@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Trirong');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.change{
+    margin-top: 8px;
+    padding: 5px;
+}
+body img{   
+     font-family: sans-serif;
+     background-size: auto;
+     height: 100vh;
+     width: 100%;
+     background-repeat: no-repeat;
+     background-position: center;
+     position: fixed;
+ }
+
+.banner-card{
+    position: relative;
+}
+
+.banner-text{
+    position: absolute;
+    top: 25%;
+    padding: 30px;
+}
+
+.banner-text h1{
+    color:#fb0066 ;
+     box-shadow:2px 4px 3px 4px rgb(12, 244, 31); 
+     text-align: center;         
+    margin-top: 10px;
+}
+.banner-text button{
+    box-shadow:2px 2px  grey; 
+    a {
+        text-decoration: none;
+      }
+    border-radius: 5px;
+    padding: 6px
+}
+
+
+.calculator{
+    padding: 10px;
+    border-radius: 1em;
+    height: 550px;
+    width: 400px;
+    margin: auto;
+    background-color: #191b28;
+    box-shadow: rgba(0,0,0,0.19) 0px,10px, 20px, rgba(0,0,0,0.23) 0px 6px 6px;   
+}
+
+
+.display-box{
+    font-family: "Trirong", sans-serif;
+    background-color: rgb(234, 255, 0);
+    border: solid black 0.5px;
+    color: black;
+    border-radius: 5px;
+    width : 100%;
+    height: 65%;
+    box-shadow: none;   
+}
+
+table .display-box {
+    display: flex;
+    justify-content: flex-end;
+}
+
+table .display-box input{
+      text-align: right;
+      flex: 1;
+      font-size: 30px;
+      font-weight:bolder;
+      box-shadow: none;
+      background-color: #eaff00;
+}
+
+#btn {
+    background-color: #fb0066;
+}
+
+#unik {
+    background-color: rgb(102, 255, 47);
+}
+
+input[type=button] {
+    font-family: "Autiowide", sans-serif;
+    background-color: #35c1e1;
+    color: white;
+    border: solid black 0.5px;
+    width: 100%;
+    font-size: 22px;
+    border-radius: 5px;
+    height: 70%;
+    outline: none;
+}
+
+input:active[type=button]{
+    background: #e5e5e5;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+}
