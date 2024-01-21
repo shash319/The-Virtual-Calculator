@@ -30,9 +30,11 @@ body img{
 
 .banner-text h1{
     color:#fb0066 ;
-     box-shadow:2px 4px 3px 4px rgb(12, 244, 31); 
-     text-align: center;         
-    margin-top: 10px;
+    box-shadow:2px 4px 3px 4px rgb(12, 244, 31); 
+    text-align: center;         
+    margin-top: 30px;
+    background-color: #eaff00;
+    padding: 20px;
 }
 .banner-text button{
     box-shadow:2px 2px  grey; 
