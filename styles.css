@@ -82,12 +82,38 @@ table .display-box input{
       background-color: #eaff00;
 }
 
-#btn {
+#btn{
     background-color: #fb0066;
 }
 
+#baks{
+    background-color: #fba700;
+    display: flex;
+    color: black;
+    height: 34px;
+    width: 50%;
+    margin: -22px;
+    justify-content: center;    /* position:absolute; */
+    margin-left: 281%;
+}
+    
+#btn:active[type=button]{
+        background: #e5e5e5;
+        -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+        -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+        box-shadow: inset 0px 0px 5px #c1c1c1;
+    }
+    
+
 #unik {
     background-color: rgb(102, 255, 47);
+}
+
+#unik:active[type=button]{
+    background: #e5e5e5;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
 }
 
 input[type=button] {
@@ -108,3 +134,5 @@ input:active[type=button]{
     -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
     box-shadow: inset 0px 0px 5px #c1c1c1;
 }
+
+
