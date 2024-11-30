@@ -16,6 +16,7 @@ body img{
      background-repeat: no-repeat;
      background-position: center;
      position: fixed;
+
  }
 
 .banner-card{
@@ -37,12 +38,12 @@ body img{
     padding: 20px;
 }
 .banner-text button{
-    box-shadow:2px 2px  grey; 
+    box-shadow:4px 4px  grey; 
     a {
         text-decoration: none;
       }
     border-radius: 5px;
-    padding: 6px
+    padding: 6px;
 }
 
 
@@ -136,3 +137,68 @@ input:active[type=button]{
 }
 
 
+@media (max-width: 554px) {
+
+
+
+body img{
+     font-family: sans-serif;
+     background-size: auto;
+     bottom: 0;
+     position: absolute;
+     height: 60vh;
+     width: 100%;
+     background-repeat: no-repeat;
+     background-position: center;
+     position: fixed;
+}       
+
+.banner-text{
+    position: absolute;
+    top: 35%;
+    /* margin: 40px; */
+    padding: 150px;
+}
+
+.banner-text button:first-child{
+    box-shadow:4px 4px  grey; 
+    a {
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: bold;
+        color: #000;
+    }
+    border-radius: 5px;
+    padding: 18px 10px;
+    margin: 0 12px 0 -20px;
+}
+.banner-text button:nth-child(2){
+    box-shadow:4px 4px  grey; 
+    a {
+        text-decoration: none;
+        font-size: 19px;
+        font-weight: bold;
+        color: #000;
+    }
+    border-radius: 5px;
+    padding: 18px 2px;
+}
+
+.banner-text h1{
+    color:#fb0066 ;
+    box-shadow:2px 4px 3px 4px rgb(12, 244, 31); 
+    text-align: center;         
+    margin-top: 50px;
+    margin-left: -30px;
+    font-size: 40px;
+    background-color: #eaff00;
+    padding: 40px 80px;
+}
+
+.banner-text{
+    position: absolute;
+    top: 25%;
+    background-color: grey;
+    padding: 101px;
+}
+}
