@@ -136,21 +136,15 @@ input:active[type=button]{
     box-shadow: inset 0px 0px 5px #c1c1c1;
 }
 
-
 #feature-head{
     background-color: aqua;
-    font-size: 27px;
     color: red;
-    padding: 16px 0px;
+    padding: 1px 0px;
     text-align: center;
-    margin: 0px -8px;
 }
 
-
 @media (max-width: 554px) {
-
-
-
+    
 body img{
      font-family: sans-serif;
      background-size: auto;
@@ -218,5 +212,5 @@ body img{
     color: red;
     padding: 16px 0px;
     text-align: center;
-    margin: 0px -8px;
+}
 }
