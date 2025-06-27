@@ -201,4 +201,12 @@ body img{
     background-color: grey;
     padding: 84px;
 }
+
+#feature-head{
+    background-color: aqua;
+    font-size: 27px;
+    color: red;
+    padding: 16px 0px;
+    text-align: center;
+    margin: 0px -8px;
 }
