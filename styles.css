@@ -137,6 +137,16 @@ input:active[type=button]{
 }
 
 
+#feature-head{
+    background-color: aqua;
+    font-size: 27px;
+    color: red;
+    padding: 16px 0px;
+    text-align: center;
+    margin: 0px -8px;
+}
+
+
 @media (max-width: 554px) {
 
 
