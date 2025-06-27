@@ -170,7 +170,7 @@ body img{
     }
     border-radius: 5px;
     padding: 18px 10px;
-    margin: 0 12px 0 -20px;
+    margin: 0 12px 0 -40px;
 }
 .banner-text button:nth-child(2){
     box-shadow:4px 4px  grey; 
@@ -189,7 +189,7 @@ body img{
     box-shadow:2px 4px 3px 4px rgb(12, 244, 31); 
     text-align: center;         
     margin-top: 50px;
-    margin-left: -30px;
+    margin-left: -50px;
     font-size: 40px;
     background-color: #eaff00;
     padding: 40px 80px;
